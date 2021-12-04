@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto 0;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container-main {
+    width: 800px;
+}
+
+h1 {
+    color: #181D31;
+}
+
+p {
+    font-weight: 300;
+    color: #181D31;
+}
+
+a {
+    text-decoration: none;
+    color: #181D31;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #181D31;
+    /* height: auto; */
+}
+
+.nav-main {
+    /* width: 80%; */
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-main li {
+    padding: 15px 40px;
+}
+/* .nav-main li a {
+    color: white;
+} */
+.bulb {
+    color: white;
+    margin-left: 20px;
+    margin-right: 25px;
+    /* font-size: 25px; */
+}
+
+
+.bigtext {
+    font-size: 6rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* about */
+.con80 {
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+.con80 a{
+    text-decoration: underline;
+}
+
+.about-container {
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    width: 80vw;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+}
+
+.profpic {
+    width: 300px;
+}
+
+.abtText p {
+    font-size: 1.4rem;
+    margin-top: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.abtText h1 {
+    margin-bottom: 7px;
+}
+
+.abtText .email {
+    margin-bottom: 7px;
+} 
+/* .tensor a {
+    color: #ff6f00;
+    font-weight: 500;
+} */
+
+/* .idealab a {
+    color: #0C2546;
+    font-family: sans-serif;
+    font-weight: 700;
+} */
+
+.cv {
+    /* color: black; */
+    font-weight: 500;
+}
+
+.con-next-abt {
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    width: 80vw;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+/* project */
+
+.proj-container{
+    width: 80vw;
+}
+.proj-container ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.proj-container li {
+    list-style: none;
+    display: flex;
+    /* flex-direction: row;
+    align-items: center; */
+    justify-content: center;
+    height: 175px;
+    /* background-color:rgba(200, 200, 200, 0.4) ; */
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.lightProj {
+    background-color:rgba(200, 200, 200, 0.4) ;
+}
+
+.proj-container .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.proj-container .desc {
+    padding-left: 20px;
+}
+
+.proj-container a {
+    text-decoration: none;
+    /* color: #181D31; */
+}
+
+.proj-container p {
+    margin: 7px 0;
+}
+
+.proj-container .bolder {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.proj-container .special {
+    text-decoration: underline;
+}
+
+.icon img{
+    /* max-height: 100px; */
+    width: 125px;
+}
+
+.icon .shrink{
+    /* max-height: 100px; */
+    width: 80px;
+    padding: 0 15px;
+    /* height: 125px; */
+}
+
+/* contact */
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+    justify-content: flex-start;
+    /* height: 7vh; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-size {
+    color: #181D31;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* themes */
+.darkfont {
+    color: #181D31;
+}
+.lightfont {
+    color: #f6f6f6;
+}
+
+
+.lightBack {
+    background-color: #f6f6f6;
+}
+
+.darkBack {
+    background-color: #181D31;
+}
+
+.darkProj {
+    background-color: #404040;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .nav-main li {
+        padding: 15px 20px;
+    }
+    .bigtext {
+        font-size: 2.5rem;
+    }
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .profpic {
+        width: 15rem;
+    }
+    .abtText h1{
+        font-size: 1.3rem;
+    }
+    .abtText p {
+        font-size: 1.2rem;
+    }
+    .proj-container .list-item {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .proj-container li {
+        height: auto;
+    }
+    .proj-container p {
+        font-size: 0.7rem;
+    }
+    .proj-container h1 {
+        font-size: 1.3rem;
+    }
+}
