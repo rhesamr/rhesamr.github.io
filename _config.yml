@@ -1,8 +1,8 @@
 # Basic Information 
-title: Rhesa Muhammad Ramadhan
-position: -
-affiliation: -
-email: rhesamr.research (at) gmail.com
+title: Your Name
+position: Ph.D. Student
+affiliation: Your Affiliation
+email: yourname (at) example.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -15,7 +15,7 @@ canonical: https://minimal-light-theme.yliu.me/
 google_scholar: https://scholar.google.com/
 cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/
-linkedin: https://www.linkedin.com/in/rhesamr
+linkedin: https://www.linkedin.com/
 twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -34,8 +34,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-# font: "Serif"
-font: "Sans Serif"
+font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
